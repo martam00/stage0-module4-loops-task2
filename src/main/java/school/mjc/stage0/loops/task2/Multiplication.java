@@ -7,11 +7,11 @@ public class Multiplication {
         if (multiplyByAndToInclusive == 0) {
             return;
         }
-        int temp = multiplyByAndToInclusive;
+        int maxNum = multiplyByAndToInclusive;
         if (multiplyByAndToInclusive < 0) {
-            temp = multiplyByAndToInclusive * -1;
+            maxNum = multiplyByAndToInclusive * -1;
         }
-        while (counter <= temp) {
+        while (counter <= maxNum) {
             System.out.println(multiply);
             counter++;
             multiply = counter * multiplyByAndToInclusive;

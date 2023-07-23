@@ -6,9 +6,9 @@ public class PowerOfTwo {
             System.out.println("too much power");
         } else {
             int pow = 0;
-            int num = 2;
+            int numTwo = 2;
             while (pow <= power) {
-                System.out.println((int)Math.pow(num, pow));
+                System.out.println((int)Math.pow(numTwo, pow));
                 pow++;
             }
         }
